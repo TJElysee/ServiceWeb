@@ -1,0 +1,9 @@
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\WcfService1.dll
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\WcfService1.pdb
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\EntitiesLayer.dll
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\StubDataAccessLayer.dll
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\EntitiesLayer.pdb
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\StubDataAccessLayer.pdb
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.dll
+H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.pdb

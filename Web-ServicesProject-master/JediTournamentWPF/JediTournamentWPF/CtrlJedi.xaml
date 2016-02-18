@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="JediTournamentWPF.CtrlJedi"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="420" d:DesignWidth="320">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+
+        <Label
+            Content="Fiche Jedi"
+            Grid.Row="1" 
+            Grid.Column="1"
+        />
+        <Label
+           Content="Nom:"
+           Grid.Row="3"
+           Grid.Column="0"
+        />
+        <TextBox 
+            x:Name="name"
+            Grid.Row="3"
+            Grid.Column="1"
+            Text ="{Binding Path=Nom, UpdateSourceTrigger=PropertyChanged}" 
+        />
+        <Label
+           Content="Is Sith:"
+           Grid.Row="5"
+           Grid.Column="0"
+        />
+        <CheckBox
+            x:Name="isSith"
+            Grid.Column="1"
+            Grid.Row="5"
+            IsChecked="{Binding Path=Sith, UpdateSourceTrigger=PropertyChanged}"
+        />
+        <Label
+           Content="Caratéristiques:"
+           Grid.Row="7"
+           Grid.Column="0"
+        />
+        
+        <Label
+           Content="Force:"
+           Grid.Row="7"
+           Grid.Column="1"
+        />
+        
+        <TextBox 
+            Grid.Row="7"
+            Grid.Column="2"
+            Text ="{Binding Path=Force, UpdateSourceTrigger=PropertyChanged}" 
+        />
+
+        <Label
+           Content="Sante:"
+           Grid.Row="9"
+           Grid.Column="1"
+        />
+        
+        <TextBox 
+            Grid.Row="9"
+            Grid.Column="2"
+            Text ="{Binding Path=Sante, UpdateSourceTrigger=PropertyChanged}" 
+        />
+
+        <Label
+           Content="Defense:"
+           Grid.Row="11"
+           Grid.Column="1"
+        />
+        
+        <TextBox 
+            Grid.Row="11"
+            Grid.Column="2"
+            Text ="{Binding Path=Defense, UpdateSourceTrigger=PropertyChanged}" 
+        />
+
+        <Label
+           Content="Luck:"
+           Grid.Row="13"
+           Grid.Column="1"
+        />
+        
+        <TextBox 
+            Grid.Row="13"
+            Grid.Column="2"
+            Text ="{Binding Path=Chance, UpdateSourceTrigger=PropertyChanged}" 
+        />
+
+    </Grid>
+</UserControl>

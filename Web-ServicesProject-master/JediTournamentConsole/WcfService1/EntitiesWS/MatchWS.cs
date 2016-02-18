@@ -1,0 +1,87 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+using EntitiesLayer;
+using System.Runtime.Serialization;
+
+namespace WcfService1.EntitiesWS
+{
+    [DataContract]
+    public class MatchWS : EntityObjectWS
+        {
+
+            private int idJediVainqueur;
+
+            public int IdJediVainqueur
+            {
+                get { return idJediVainqueur; }
+                set { idJediVainqueur = value; }
+            }
+            private Jedi jedi1;
+            private Jedi jedi2;
+            private EPhaseTournoi phaseTournoi;
+
+            public EPhaseTournoi PhaseTournoi
+            {
+                get { return phaseTournoi; }
+                set { phaseTournoi = value; }
+            }
+            private Stade stade;
+
+            public Stade Stade
+            {
+                get
+                {
+                    return stade;
+                }
+                set
+                {
+                    stade = value;
+                }
+            }
+            public Jedi Jedi1
+            {
+                get
+                {
+                    return jedi1;
+                }
+                set
+                {
+                    jedi1 = value;
+                }
+            }
+            public Jedi Jedi2
+            {
+                get
+                {
+                    return jedi2;
+                }
+                set
+                {
+                    jedi2 = value;
+                }
+            }
+            public MatchWS(int idJediVainqueur, Jedi jedi1, Jedi jedi2, EPhaseTournoi phaseTournoi, Stade stade, int id)
+                : base(id)
+            {
+                this.idJediVainqueur = 0;
+                this.jedi1 = jedi1;
+                this.jedi2 = jedi2;
+                this.phaseTournoi = phaseTournoi;
+                this.stade = stade;
+            }
+
+            public MatchWS(Match match)
+                : base(match.Id)
+            {
+                this.IdJediVainqueur = match.IdJediVainqueur;
+                this.Jedi1 = match.Jedi1;
+                this.Jedi2 = match.Jedi2;
+                this.PhaseTournoi = match.PhaseTournoi;
+                this.Stade = match.Stade;
+            }
+
+        }
+    }
