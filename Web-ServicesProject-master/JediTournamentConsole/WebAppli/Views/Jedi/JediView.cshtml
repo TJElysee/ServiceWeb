@@ -1,0 +1,12 @@
+﻿@model List<WebAppli.Models.JediWSModele>
+
+@{
+    ViewBag.Title = "JediView";
+}
+
+<h2>JediView</h2>
+
+@foreach (var item in Model)
+{
+   @Html.DisplayFor(m=> item.Nom)
+}

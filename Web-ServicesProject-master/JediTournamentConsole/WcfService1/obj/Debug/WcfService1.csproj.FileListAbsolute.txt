@@ -7,3 +7,13 @@ H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamen
 H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\StubDataAccessLayer.pdb
 H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.dll
 H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\WcfService1.dll.config
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\WcfService1.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\WcfService1.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\EntitiesLayer.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\StubDataAccessLayer.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\EntitiesLayer.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\bin\StubDataAccessLayer.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentConsole\WcfService1\obj\Debug\WcfService1.pdb

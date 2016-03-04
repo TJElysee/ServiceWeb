@@ -13,6 +13,8 @@ namespace EntitiesLayer
         private ETypeCaracteristique type;
         private int valeur;
 
+
+
         public int Valeur
         {
             get
@@ -32,11 +34,48 @@ namespace EntitiesLayer
                 return nom;
             }
         }
-        public Caracteristiques(EDefCaracteristique definition,string nom,ETypeCaracteristique type,int valeur ,int id):base(id)
+
+      public EDefCaracteristique Definition
+      {
+         get
+         {
+            return definition;
+         }
+
+         set
+         {
+            definition = value;
+         }
+      }
+
+      public ETypeCaracteristique Type
+      {
+         get
+         {
+            return type;
+         }
+
+         set
+         {
+            type = value;
+         }
+      }
+
+      public string TypeString()
+      {
+         return type.ToString();
+      }
+
+      public string DefString()
+      {
+         return definition.ToString();
+      }
+
+      public Caracteristiques(EDefCaracteristique definition,string nom,ETypeCaracteristique type,int valeur ,int id):base(id)
         {
-            this.definition = definition;
+            this.Definition = definition;
             this.nom = nom;
-            this.type = type;
+            this.Type = type;
             this.valeur = valeur;
         }
     }

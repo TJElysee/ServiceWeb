@@ -11,11 +11,12 @@ namespace WcfService1.EntitiesWS
     [DataContract]
     public class JediWS : EntityObjectWS
     {
-        private Caracteristiques[] caracteristiques;
+        private CaracteristiquesWS[] caracteristiques;
         private bool isSith;
         private string nom;
 
-        public Caracteristiques[] Carac
+      [DataMember]
+      public CaracteristiquesWS[] Carac
         {
             get
             {
@@ -23,10 +24,12 @@ namespace WcfService1.EntitiesWS
             }
             set
             {
-                this.Carac = value;
+                this.caracteristiques = value;
             }
         }
-        public string Nom
+
+      [DataMember]
+      public string Nom
         {
             get
             {
@@ -38,7 +41,8 @@ namespace WcfService1.EntitiesWS
             }
         }
 
-        public bool IsSith
+      [DataMember]
+      public bool IsSith
         {
             get
             {
@@ -49,23 +53,34 @@ namespace WcfService1.EntitiesWS
                 this.isSith = value;
             }
         }
-        public JediWS(Caracteristiques[] caracteristiques,bool isSith,string nom,int id):base(id)
+
+
+      public JediWS(Caracteristiques[] caracteristiques,bool isSith,string nom,int id):base(id)
         {
-            this.caracteristiques = caracteristiques;
+         List<CaracteristiquesWS> car = new List<CaracteristiquesWS>();
+         foreach (Caracteristiques carac in caracteristiques)
+         {
+            car.Add(new CaracteristiquesWS(carac));
+         }
+            
+            this.caracteristiques = car.ToArray();
             this.isSith = isSith;
             this.nom = nom;
         }
 
-        public JediWS(Jedi jedi):base(jedi.Id)
+      public JediWS(Jedi jedi):base(jedi.Id)
         {
             this.Nom = jedi.Nom;
             this.isSith = jedi.IsSith;
-            this.Carac = jedi.Carac;
-        }
 
-
-
-        public override string ToString()
+         List<CaracteristiquesWS> car = new List<CaracteristiquesWS>();
+         foreach (Caracteristiques carac in jedi.Carac)
+         {
+            car.Add(new CaracteristiquesWS(carac));   
+         }
+         this.Carac = car.ToArray();
+      }
+      public override string ToString()
         {
             return nom;
         }

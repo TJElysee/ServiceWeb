@@ -31,3 +31,36 @@ H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamen
 H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.csproj.GenerateResource.Cache
 H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.exe
 H:\Documents\ZZ2\ServiceWeb\Service Web\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\JediTournamentWPF.exe.config
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.exe
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\JediTournamentWPF.exe
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\JediTournamentWPF.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\BusinessLayer.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\EntitiesLayer.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\StubDataAccessLayer.dll
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\BusinessLayer.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\EntitiesLayer.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\bin\Debug\StubDataAccessLayer.pdb
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\CtrlJedi.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\Login.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\CtrlJedi.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\CtrlMatch.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\CtrlStade.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\EditWindow.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\Login.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\Window2.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\App.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF_MarkupCompile.cache
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF_MarkupCompile.lref
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\CtrlMatch.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\CtrlStade.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\EditWindow.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\Window2.baml
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.g.resources
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\ServiceWeb\Web-ServicesProject-master\JediTournamentWPF\JediTournamentWPF\obj\Debug\JediTournamentWPF.csproj.GenerateResource.Cache
